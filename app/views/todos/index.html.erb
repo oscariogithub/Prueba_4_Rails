@@ -1,0 +1,23 @@
+<table class="table table-striped table-dark" >
+<thead>
+<tr>
+<th>Lista de Mis tareas completadas</th>
+
+  
+  <th scope="col" colspan="3"></th>
+</tr>
+</thead>
+
+<tbody>
+<%@todos.each do |todo| %>
+<tr>
+<td><%= todo.task.name %> </td>
+<td style="text-align: center; vertical-align: middle;">
+
+</td>
+</tr>
+
+<% end %>
+</tbody>
+
+</table>
